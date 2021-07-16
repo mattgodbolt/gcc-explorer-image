@@ -132,6 +132,7 @@ build_latest go go build.sh trunk
 build_latest misc tinycc build-tinycc.sh trunk
 build_latest misc cc65 buildcc65.sh trunk
 build_latest misc mrustc build-mrustc.sh master
+build_latest misc cproc build-cproc.sh master
 build_latest misc rustc-cg-gcc_master build-rustc-cg-gcc.sh master
 
 build_latest_cross gcc arm32 build.sh arm trunk
